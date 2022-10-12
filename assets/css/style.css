@@ -5440,6 +5440,9 @@
   }
 }
 @media (max-width: 575.98px) {
+  #services .row {
+    row-gap: 24px;
+  }
   #services .row .col-md-3 {
     width: 100%;
   }
