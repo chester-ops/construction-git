@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Template - Building Your Future</title>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owlslider-->
+    <link rel="stylesheet" href="./assets/css/owlslider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owlslider/css/owl.theme.default.min.css">
+    <!-- Preloading Hero Image -->
+    <link rel="preload" as="image" href="assets/images/hero.jpg">
+</head>
+<body>
+    <!-- Hero -->
+    <section id="site-hero" class="site-hero fade-in ">
+        <div class="container d-flex align-items-center position-relative">
+            <header class="site-header d-flex align-items-center justify-content-between">
+                <div class="site-header__logo site-logo">
+                    <a href="#">
+                        <h2>
+                            LOGO
+                        </h2>
+                    </a>
+                </div>
+                <nav class="site-header__nav d-flex align-items-center justify-content-between">
+                    <ul class="site-header__nav--items d-flex align-items-center justify-content-between">
+                        <li class="site-header__nav--items__item">
+                            <a href="#" class="active-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="site-header__nav--items__item">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="site-header__nav--items__item">
+                            <a href="#" class="">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="site-header__nav--items__item">
+                            <a href="#" class="">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="site-header__nav--items__item">
+                            <a href="#" class="">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="open-search" id="open-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="open-menu" id="open-menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <!--Search & Mobile Modals-->
+                    <div class="site-modals">
+                        <div class="site-modals__searchbox searchbox d-flex align-items-center justify-content-center bg-gray position-fixed" id="searchbox">
+                            <div class="searchbox-top d-flex align-items-center justify-content-end position-absolute container">
+                                <button class="close-search" id="close-search">
+                                    <img src="./assets/images/icons/x-lg.svg" alt="icon-close">
+                                </button>
+                            </div>
+                            <form action="" class="search-form position-relative">
+                                <input type="search" class="search-form__input" placeholder="Search...">
+                                <button class="search-form__submit btn primary position-absolute">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="site-modals__mobilemenu mobilemenu" id="mobilemenu">
+                            <div class="mobilemenu__overlay" id="menu-overlay"></div>
+                            <div class="mobilemenu__nav ">
+                                <div class="mobilemenu__nav--top">
+                                    <button class="close-menu" id="close-menu">
+                                        <img src="./assets/images/icons/x-lg.svg" alt="close-menu">
+                                    </button>
+                                </div>
+                                <ul class="mobilemenu__nav--list">
+                                    <li class="mobilemenu__nav--list__item active-link">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="mobilemenu__nav--list__item">
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li class="mobilemenu__nav--list__item">
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li class="mobilemenu__nav--list__item">
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li class="mobilemenu__nav--list__item">
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Search & Mobile Modals-->
+                </nav>
+            </header>
+            <div class="site-hero__content">
+                <h1 class="site-hero__content--heading">
+                    Building The Future
+                </h1>
+                <p class="site-hero__content--paragraph">
+                    Pretium, purus semper in aliquet ut scelerisque donec tortor, id enim donec magna lectus ornare sed ornare tempus vulputate gravida arcu turpis  olutpat lectus eu sed viverra.
+                </p>
+                <div class="site-hero__content--buttongroup d-flex align-items-center">
+                    <button class="btn primary lg">Get Started</button>
+                    <button class="btn outline lg">Contact Us</button>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- /Main Navigation-->
+    <!-- Services-->
+    <section class="site-section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h3>Our Services</h3>
+                <span class="title-line"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="service-card">
+                        <img src="./assets/images/icons/tractor.svg" alt="tractor-svg">
+                        <h4 class="service-card__title">
+                            Fast Operations
+                        </h4>
+                        <p class="service-card__text">
+                            Sed tincidunt tincidunt a nisl ullamcorper congues.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./assets/images/icons/calendar.svg" alt="calendar-svg">
+                        <h4 class="service-card__title">
+                            Reservation
+                        </h4>
+                        <p class="service-card__text">
+                            Sed tincidunt tincidunt a nisl ullamcorper congues.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./assets/images/icons/helmet.svg" alt="helmet-svg">
+                        <h4 class="service-card__title">
+                            Conservation
+                        </h4>
+                        <p class="service-card__text">
+                            Sed tincidunt tincidunt a nisl ullamcorper congues.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./assets/images/icons/house.svg" alt="house-svg">
+                        <h4 class="service-card__title">
+                            Architecture
+                        </h4>
+                        <p class="service-card__text">
+                            Sed tincidunt tincidunt a nisl ullamcorper congues.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- /Services -->
+    <!-- Projects -->
+    <section class="site-section bg-gray" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h3>Featured Work</h3>
+                <span class="title-line"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project">
+                        <a href="#" class="img-box">
+                            <img src="./assets/images/projects/project1.jpg" alt="project-1" class="project-image d-block">
+                        </a>
+                        <h4 class="project-title">
+                            Contemporary Villa
+                        </h4>
+                        <p class="project-text">
+                            Odio viverra tincidunt in tempus id at non sit integer vel non sagittis, duis amet faucibus.
+                        </p>
+                        <button class="btn blue sm with-icon">
+                            <span>View</span>
+                            <i class="fas fa-angle-double-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <a href="#" class="img-box">
+                            <img src="./assets/images/projects/project2.jpg" alt="project-2" class="project-image d-block">
+                        </a>
+                        <h4 class="project-title">
+                            Parametric Modelling
+                        </h4>
+                        <p class="project-text">
+                            Odio viverra tincidunt in tempus id at non sit integer vel non sagittis, duis amet faucibus.
+                        </p>
+                        <button class="btn blue sm with-icon">
+                            <span>View</span>
+                            <i class="fas fa-angle-double-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="project">
+                        <a href="#" class="img-box">
+                            <img src="./assets/images/projects/project3.jpg" alt="project-3" class="project-image d-block">
+                        </a>
+                        <h4 class="project-title">
+                            House Of Dreams
+                        </h4>
+                        <p class="project-text">
+                            Odio viverra tincidunt in tempus id at non sit integer vel non sagittis, duis amet faucibus.
+                        </p>
+                        <button class="btn blue sm with-icon">
+                            <span>View</span>
+                            <i class="fas fa-angle-double-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Projects -->
+    <!-- Team -->
+    <section class="site-section" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h3>Team Members</h3>
+                <span class="title-line"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="member">
+                        <img src="./assets/images/team/member1.jpg" alt="member-1" class="member-profile">
+                        <div class="member-social">
+                            <ul class="member-social__links d-flex align-items-center">
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="member-name">
+                            Jack Ryan
+                        </h3>
+                        <p class="member-title text-title">
+                            Founder And Thinker
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <img src="./assets/images/team/member2.jpg" alt="member-2" class="member-profile">
+                        <div class="member-social">
+                            <ul class="member-social__links d-flex align-items-center">
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="member-name">
+                            Philip Garcia
+                        </h3>
+                        <p class="member-title text-title">
+                            Ceo And Head Of Idea
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <img src="./assets/images/team/member3.jpg" alt="member-3" class="member-profile">
+                        <div class="member-social">
+                            <ul class="member-social__links d-flex align-items-center">
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="member-name">
+                            Serge Perez
+                        </h3>
+                        <p class="member-title text-title">
+                            Product Designer
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member">
+                        <img src="./assets/images/team/member4.jpg" alt="member-4" class="member-profile">
+                        <div class="member-social">
+                            <ul class="member-social__links d-flex align-items-center">
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="member-social__links--link">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="member-name">
+                            Marry Norris
+                        </h3>
+                        <p class="member-title text-title">
+                            Project Manager
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Team -->
+    <!-- Quote -->
+    <section class="site-quote bg-blue" id="site-quote">
+        <div class="container">
+            <div class="request-quote d-flex align-items-center justify-content-between">
+                <div class="request-quote__content">
+                    <h2 class="request-quote__content--heading">
+                        Engineering Your Dreams
+                    </h2>
+                    <p class="request-quote__content--paragraph">
+                        Gravida sed gravida nisl eu turpis.
+                    </p>
+                </div>
+                <button class="btn md primary">
+                    Request Quote
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- /Quote -->
+    <!-- Testimonials -->
+    <section class="site-section bg-gray" id="site-testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h3>Testimonials</h3>
+                <span class="title-line"></span>
+            </div>
+            <div class=" owl-carousel owl-theme testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-top d-flex align-items-center justify-content-center">
+                        <div class="testimonial-top__image">
+                            <img src="./assets/images/testimonials/user1.jpg" alt="user-1">
+                        </div>
+                        <div class="testimonial-top__details">
+                            <h4>
+                                James Wiker
+                            </h4>
+                            <p class="text-title">
+                                Customer
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="testimonial-rating d-flex align-items-center justify-content-center">
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                    </ul>
+                    <p class="testimonial-content">
+                        I’m very happy with the services provided by this company. it has been wonderful! They have returned my calls quickly, and answered all my questions with good explanations.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-top d-flex align-items-center justify-content-center">
+                        <div class="testimonial-top__image">
+                            <img src="./assets/images/testimonials/user2.jpg" alt="user-2">
+                        </div>
+                        <div class="testimonial-top__details">
+                            <h4>
+                                Mary Donna
+                            </h4>
+                            <p class="text-title">
+                                Customer
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="testimonial-rating d-flex align-items-center justify-content-center">
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets//images/icons/star.svg" alt="star-outline-icon"></li>
+                    </ul>
+                    <p class="testimonial-content">
+                        I’m very happy with the services provided by this company. it has been wonderful! They have returned my calls quickly, and answered all my questions with good explanations.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-top d-flex align-items-center justify-content-center">
+                        <div class="testimonial-top__image">
+                            <img src="./assets/images/testimonials/user1.jpg" alt="user-1">
+                        </div>
+                        <div class="testimonial-top__details">
+                            <h4>
+                                James Wiker
+                            </h4>
+                            <p class="text-title">
+                                Customer
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="testimonial-rating d-flex align-items-center justify-content-center">
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                    </ul>
+                    <p class="testimonial-content">
+                        I’m very happy with the services provided by this company. it has been wonderful! They have returned my calls quickly, and answered all my questions with good explanations.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-top d-flex align-items-center justify-content-center">
+                        <div class="testimonial-top__image">
+                            <img src="./assets/images/testimonials/user2.jpg" alt="user-2">
+                        </div>
+                        <div class="testimonial-top__details">
+                            <h4>
+                                Mary Donna
+                            </h4>
+                            <p class="text-title">
+                                Customer
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="testimonial-rating d-flex align-items-center justify-content-center">
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star-fill.svg" alt="star-icon"></li>
+                        <li><img src="./assets/images/icons/star.svg" alt="star-outline-icon"></li>
+                    </ul>
+                    <p class="testimonial-content">
+                        I’m very happy with the services provided by this company. it has been wonderful! They have returned my calls quickly, and answered all my questions with good explanations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Testimonials -->
+    <!-- Footer -->
+    <section class="site-footer">
+        <div class="site-footer__top bg-blue">
+            <div class="container">
+                <div class="site-footer__top--columns row">
+                    <div class="site-footer__top--columns__column col-lg-3 col-sm-6">
+                        <div class="site-footer__logo site-logo">
+                            <a href="#">
+                                <h2>
+                                    LOGO
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="site-footer__container">
+                            <p class="site-footer__info">
+                                A leading developer of A-grade commercial, industrial and residential projects in the USA.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="site-footer__top--columns__column col-lg-3 col-sm-6">
+                        <div class="column-title">
+                            <h3>
+                                Services
+                            </h3>
+                            <span class="title-line">
+                            </span>
+                        </div>
+                        <div class="site-footer__container">
+                            <ul class="site-footer__links">
+                                <li class="site-footer__links--link">
+                                    <a href="#">Construction Manage</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Architecture & Building</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Planning & Scheduling</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Tiling & Painting</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Design Build Contracts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-footer__top--columns__column col-lg-3 col-sm-6">
+                        <div class="column-title">
+                            <h3>
+                                Company
+                            </h3>
+                            <span class="title-line">
+                            </span>
+                        </div>
+                        <div class="site-footer__container">
+                            <ul class="site-footer__links">
+                                <li class="site-footer__links--link">
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Meet Our Team</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">News & Media</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Projects Standard</a>
+                                </li>
+                                <li class="site-footer__links--link">
+                                    <a href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-footer__top--columns__column col-lg-3 col-sm-6">
+                        <div class="site-footer__container">
+                            <div class="column-title">
+                                <h3>
+                                    Newsletter
+                                </h3>
+                                <span class="title-line">
+                                </span>
+                            </div>
+                            <div class="newsletter">
+                                <p class="newsletter-content">
+                                    Sign up for industry alerts, our latest news, thoughts, and insights.
+                                </p>
+                                <form action="" class="newsletter-form">
+                                    <div class="input-submit__group">
+                                        <input type="email" placeholder="Your Email Address" class="newsletter-form__email" >
+                                        <button class="btn primary newsletter-form__btn position-absolute" type="submit">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer__bottom bg-black-2 text-center">
+            <p class="copyright-info">
+                © 2022 DEVUX. All Rights Reserved.
+            </p>
+        </div>
+    </section>
+    <!--/ Footer-->
+
+
+    <!-- Main Script -->
+    <script src="./assets/js/scripts.js"></script>
+    <!-- Jquery -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <!-- Owlslider Script -->
+    <script src="./assets/js/owlslider/js/owl.carousel.min.js"></script>
+</body>
+</html>
