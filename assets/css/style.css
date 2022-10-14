@@ -5776,12 +5776,12 @@ h5 {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 1400px) {
   .container {
-    max-width: 1370px;
+    max-width: 1400px;
   }
 }
 @media (max-width: 1199.98px) {
