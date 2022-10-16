@@ -5434,7 +5434,10 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
+  #services .container {
+    max-width: 670px;
+  }
   #services .row .col-md-3 {
     width: 50%;
   }
@@ -5448,13 +5451,19 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
+  #projects .container {
+    max-width: 670px;
+  }
   #projects .row .col-md-4 {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
+  #team .container {
+    max-width: 670px;
+  }
   #team .row .col-md-3 {
     width: 50%;
   }
@@ -5462,6 +5471,12 @@
 @media (max-width: 575.98px) {
   #team .row .col-md-3 {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #site-testimonials .container {
+    max-width: 670px;
   }
 }
 
